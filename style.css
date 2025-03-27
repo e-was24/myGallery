@@ -1,0 +1,275 @@
+@media (min-width: 769px) {
+    .onsec {
+        display: none;
+    }
+
+    .footer-content {
+        display: none;
+    }
+
+    .offsec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offsec .Warning {
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: rgba(0, 26, 255, 0.249);
+        padding: 1rem;
+        border-radius: 100% 50% 100% 50% / 50% 100% 50% 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .offsec {
+        display: none;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 95%;
+        background: linear-gradient(to bottom, #06eaffbe, #004d60d9 60%);
+        height: 10vh;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        margin-left: 2.5%;
+        backdrop-filter: blur(2px);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        font-size: 14px;
+        padding: 10px 0;
+        list-style: none;
+    }
+
+    nav ul li {
+        flex: 1;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav ul li a svg {
+       padding: 5px;
+    }
+
+    nav ul li a:hover svg{
+        background: rgb(14, 40, 52);
+        padding: 5px;
+        border-radius: 50px;
+        color: rgb(0, 255, 251);
+    }
+
+    nav ul li a:focus span {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+        margin-top: 5px;
+        font-weight: 600;
+        color: rgb(0, 255, 251);
+        text-align: center;
+    }
+
+    nav ul li a span {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5px;
+    }
+
+    /* welcome */
+
+
+    .promo-banner {
+        background-color: #d7e8f8;
+        color: rgb(0, 99, 186);
+        font-size: 14px;
+        padding: 8px;
+        text-align: center;
+        border-radius: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* content */
+
+    .content-section {
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+    /* demo */
+
+    .image-frame-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        border-bottom: 1px solid gray;
+    }
+
+    .image-frame {
+        width: 280px;
+        height: 280px;
+        border: 2px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        background: white;
+    }
+
+    .frame-image {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* footer */
+
+    footer {
+        background: linear-gradient(to bottom, #242d5d71, #0059728f 60%);
+        /* Warna latar belakang putih */
+        color: black;
+        /* Warna teks hitam */
+        padding: 20px 10px;
+        /* Padding untuk ruang di dalam footer */
+        text-align: center;
+        /* Teks rata tengah */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* Font yang konsisten */
+        border-top: 3px solid #ddd;
+        /* Garis atas dengan warna abu-abu terang */
+        border: 0 0 10px 10px;
+    }
+
+    footer .about-me {
+        margin-bottom: 15px;
+        /* Jarak bawah untuk elemen About Me */
+    }
+
+    footer h2 {
+        font-size: 20px;
+        /* Ukuran font judul */
+        margin-bottom: 10px;
+        /* Jarak bawah judul */
+        color: white;
+        /* Warna teks abu-abu gelap */
+    }
+
+    footer p {
+        font-size: 14px;
+        /* Ukuran font teks */
+        line-height: 1.6;
+        /* Jarak antar baris */
+        margin: 0;
+        /* Hilangkan margin default */
+        color: white;
+        /* Warna teks abu-abu sedang */
+    }
+
+   .footer-content {
+        margin-top: 15px;
+        /* Jarak atas untuk elemen footer-content */
+        font-size: 12px;
+        /* Ukuran font kecil untuk hak cipta */
+        color: #777;
+        /* Warna teks abu-abu terang */
+        padding: 3px;
+    }
+
+    footer .footer-content span {
+        font-weight: bold;
+        /* Teks tahun lebih tebal */
+        color: #333;
+        /* Warna teks tahun abu-abu gelap */
+    }
+
+    /* judul web */
+
+    .title-wrapper {
+        background: linear-gradient(130deg, rgba(0, 255, 255, 0.242), rgba(0, 0, 255, 0.38));
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        user-select: none;
+        margin-bottom: 5px;
+    }
+
+    .title-wrapper .secTitle {
+        color:  white;
+        letter-spacing: .5em;
+        font-family: "Pacifico", cursive;
+        font-weight: 600;
+        font-style: normal;
+        text-shadow: 0px 0px 5px black;
+    }
+
+    .title-wrapper .secTitle span {
+        color: rgb(107, 143, 250);
+        text-shadow: none;
+    }
+
+    /* warna layar */
+
+    .theme-toggle {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        border: 2px solid #ccc;
+        background: #a6a6a6;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        user-select: none;
+    }
+    
+    .theme-toggle:active {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .theme-toggle svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* svg color */
+
+    .size-6 {
+        stroke: white;
+    }
+}
