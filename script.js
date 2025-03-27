@@ -48,7 +48,7 @@ function dragMusik() {
 
     // Array of music items
     const musicList = [
-        { name: "Dremin", audioFile: "audio/dreamin.mp3" },
+        { name: "Dreamin", audioFile: "audio/dreamin.mp3" },
         { name: "The News", audioFile: "audio/the news.mp3" },
         { name: "Too Many Nights", audioFile: "audio/Too Many Nights.mp3" }
     ];
