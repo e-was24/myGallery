@@ -17,15 +17,7 @@ function dragContact() {
     document.getElementById("outputContact").style.borderRadius = "5px";
 }
 
-// Clear outputs when clicking outside the navbar
-document.addEventListener("click", function (event) {
-    const nav = document.querySelector("nav");
-    if (!nav.contains(event.target)) {
-      clearAllOutputs();
-      document.getElementById("outputMusik").style.background = "transparent";
-    }
-  });
-  
+
 
 // Function to clear previous outputs if needed
 function clearAllOutputs() {
@@ -102,6 +94,17 @@ function playMusic(audioFile) {
         alert("There was an error playing the music.");
     });
 }
+
+// Clear outputs when clicking outside the navbar
+document.addEventListener("click", function (event) {
+    const nav = document.querySelector("nav");
+    if (!nav.contains(event.target)) {
+      clearAllOutputs();
+      document.getElementById("outputMusik").style.background = "transparent";
+      document.getElementById("outputMusik").style.border =  "none";
+    }
+  });
+  
 
 
 
