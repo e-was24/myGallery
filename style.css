@@ -47,7 +47,7 @@ html {
         background: linear-gradient(to bottom, #06a0ffc6, #002168d9 60%);
         height: 10vh;
         border-radius: 10px;
-        margin-bottom: 5px;
+        margin-bottom: -25px;
         margin-left: 2.5%;
         backdrop-filter: blur(2px);
     }
