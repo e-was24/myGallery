@@ -43,12 +43,11 @@ function dragMusik() {
     document.getElementById("outputMusik").style.maxWidth = "250px";  // Limit the width of the menu
     document.getElementById("outputMusik").style.position = "absolute";  // Make it appear above the icon
     document.getElementById("outputMusik").style.zIndex = "1000";  // Ensure it's on top of other elements
-    document.getElementById("outputMusik").style.border =  "1px solid black";
     document.getElementById("outputMusik").style.filter = "brightness(80%)";
 
     // Array of music items
     const musicList = [
-        { name: "Dreamin", audioFile: "audio/dreamin.mp3" },
+        { name: "Dremin", audioFile: "audio/dreamin.mp3" },
         { name: "The News", audioFile: "audio/the news.mp3" },
         { name: "Too Many Nights", audioFile: "audio/Too Many Nights.mp3" }
     ];
@@ -101,7 +100,6 @@ document.addEventListener("click", function (event) {
     if (!nav.contains(event.target)) {
       clearAllOutputs();
       document.getElementById("outputMusik").style.background = "transparent";
-      document.getElementById("outputMusik").style.border =  "none";
     }
   });
   
