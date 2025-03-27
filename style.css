@@ -245,7 +245,7 @@ html {
 
     /* warna layar */
 
-    .theme-toggle {
+     .theme-toggle {
         position: fixed;
         top: 20px;
         right: 20px;
@@ -261,7 +261,9 @@ html {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         z-index: 1000;
         user-select: none;
+        outline: none;
     }
+    
     
     .theme-toggle:active {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
